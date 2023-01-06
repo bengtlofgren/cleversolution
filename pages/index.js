@@ -23,6 +23,12 @@ export default function Home() {
             </p>
           </div>
           <div className={styles.description}>
+            <p>
+              Sam is really fun &nbsp;
+              <code className={styles.code}>pages/index.js</code>
+            </p>
+          </div>
+          <div className={styles.description}>
           <p>
             
             <code className={styles.code}>pages/index.js</code>
@@ -49,6 +55,16 @@ export default function Home() {
           </div>
         </div>
 
+        <div>
+          <Image
+          src="/thirteen.svg"
+          alt="13"
+          width={40}
+          height={31}
+          priority>
+          </Image>
+        </div>
+
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -65,7 +81,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://youtube.com/"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
