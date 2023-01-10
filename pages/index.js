@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
+import Header from '../components/header.js';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,55 +16,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.grid}>
-          <div className={styles.description}>
-            <p>
-              Get started by learning &nbsp;
-              <code className={styles.code}>pages/index.js</code>
-            </p>
-          </div>
-          <div className={styles.description}>
-            <p>
-              Sam is really fun &nbsp;
-              <code className={styles.code}>pages/index.js</code>
-            </p>
-          </div>
-          <div className={styles.description}>
-          <p>
-            
-            <code className={styles.code}>pages/index.js</code>
-          </p>
-          </div>
+      <div>
+        <Header style={{ backgroundColor: '#eee', padding: '1em' }}>
+        </Header>
         </div>
-        <div className={styles.center}>
+        
+        <div style={{padding: '2.5em' }}>
           <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <div>
-          <Image
-          src="/thirteen.svg"
+          src="/Graph Website.png"
           alt="13"
-          width={40}
-          height={31}
+          width={700}
+          height={500}
           priority>
           </Image>
         </div>
+        
 
         <div className={styles.grid}>
           <a
@@ -73,7 +40,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Docs <span>-&gt;</span>
+              Data Insights <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Find in-depth information about Next.js features and&nbsp;API.
@@ -87,7 +54,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Learn <span>-&gt;</span>
+              8 Metrics <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
@@ -100,8 +67,17 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <div style={{padding: '0.5em' }}>
+            <Image
+            src="/3d-Pie-Chart1.webp"
+            alt="13"
+            width={200}
+            height={140}
+            priority>
+          </Image>
+        </div>
             <h2 className={inter.className}>
-              Templates <span>-&gt;</span>
+              Personalised Feedback <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Discover and deploy boilerplate example Next.js&nbsp;projects.
@@ -115,7 +91,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Deploy <span>-&gt;</span>
+              Acccelerate Progress <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Instantly deploy your Next.js site to a shareable URL
