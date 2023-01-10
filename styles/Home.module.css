@@ -59,6 +59,13 @@
   transition: transform 200ms;
 }
 
+.card h1 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  font-family: var(--font-mono);
+  font-size : 2rem;
+}
+
 .card h2 {
   font-weight: 600;
   margin-bottom: 0.7rem;
@@ -154,12 +161,18 @@
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
+    background: rgba(255,255,255);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
   }
 
   .card:hover span {
     transform: translateX(4px);
+  }
+  .card:hover p {
+    color: rgba(0,0,0);
+  }
+  .card:hover h2 {
+    color: rgba(0,0,0);
   }
 }
 
