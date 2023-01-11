@@ -5,7 +5,7 @@ const Header = () => (
     <div></div>
     <a
         href="/"
-        className={styles.card}
+        className={styles.card2}
         target="_blank"
         rel="noopener noreferrer"
     >
@@ -13,7 +13,7 @@ const Header = () => (
     </a>
     <a
         href="/about"
-        className={styles.card}
+        className={styles.card2}
         target="_blank"
         rel="noopener noreferrer"
     >
