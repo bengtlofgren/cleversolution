@@ -4,7 +4,6 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import Header from '../components/header.js';
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function about() {
@@ -21,10 +20,10 @@ export default function about() {
                 <div className={styles.centerCircle} style={{overflow: 'hidden', }}>
                 <Image
                     src="/bengt_picture_2_cropped.jpg"
-                    layout="fill" 
                     alt="13"
                     priority
-                    objectFit='cover'>
+                    fill
+                    >
                     </Image>
                 </div>
             </div>
@@ -34,7 +33,7 @@ export default function about() {
                 <Image
                     src="/Graph Website.png"
                     alt="14"
-                    layout="fill" 
+                    fill
                     priority
                 >
                     </Image>
