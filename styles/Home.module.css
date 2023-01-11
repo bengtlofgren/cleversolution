@@ -3,9 +3,16 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 2.5rem;
   min-height: 100vh;
 }
+
+.img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
 
 .description {
   display: inherit;

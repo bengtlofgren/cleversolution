@@ -22,13 +22,15 @@ export default function Home() {
         </div>
         
         <div style={{padding: '2.5em' }}>
+          <div classname={styles.img}>
           <Image
-          src="/Graph Website.png"
+          src="/Graph Website no background copy.png"
           alt="13"
-          width={700}
+          width={900}
           height={500}
           priority>
           </Image>
+          </div>
         </div>
         
 
@@ -69,7 +71,7 @@ export default function Home() {
           >
             <div style={{padding: '0.5em' }}>
             <Image
-            src="/3d-Pie-Chart1.webp"
+            src="/Screenshot 2023-01-11 at 00.58.53.png"
             alt="13"
             width={200}
             height={140}
