@@ -21,8 +21,8 @@ export default function Home() {
         </Header>
         </div>
         
-        <div style={{padding: '2.5em' }}>
-          <div classname={styles.img}>
+        <div style={{padding: '2em', paddingBottom: '4em' }}>
+          <div classname={styles.img} style={{ marginLeft: '-5em', marginTop: '-.5em' }}>
           <Image
           src="/Graph Website no background copy.png"
           alt="13"
@@ -41,6 +41,15 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <div style={{padding: '0.5em' }}>
+            <Image
+              src="/graph temp.png"
+              alt="13"
+              width={200}
+              height={140}
+              priority>
+            </Image>
+          </div>
             <h2 className={inter.className}>
               Data Insights <span>-&gt;</span>
             </h2>
@@ -55,6 +64,15 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <div style={{padding: '0.5em' }}>
+            <Image
+              src="/Screenshot 2023-01-11 at 00.58.53.png"
+              alt="13"
+              width={200}
+              height={140}
+              priority>
+            </Image>
+          </div>
             <h2 className={inter.className}>
               8 Metrics <span>-&gt;</span>
             </h2>
@@ -69,15 +87,15 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <div style={{padding: '0.5em' }}>
+          <div style={{padding: '0.5em' }}>
             <Image
-            src="/Screenshot 2023-01-11 at 00.58.53.png"
-            alt="13"
-            width={200}
-            height={140}
-            priority>
-          </Image>
-        </div>
+              src="/graph temp2.png"
+              alt="13"
+              width={200}
+              height={140}
+              priority>
+            </Image>
+          </div>
             <h2 className={inter.className}>
               Personalised Feedback <span>-&gt;</span>
             </h2>
@@ -92,6 +110,15 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <div style={{padding: '0.5em' }}>
+            <Image
+              src="/mini graph 3.png"
+              alt="13"
+              width={200}
+              height={140}
+              priority>
+            </Image>
+          </div>
             <h2 className={inter.className}>
               Acccelerate Progress <span>-&gt;</span>
             </h2>

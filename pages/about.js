@@ -22,6 +22,7 @@ export default function about() {
                     src="/bengt_picture_2_cropped.jpg"
                     alt="13"
                     priority
+                    objectFit= "cover"
                     fill
                     >
                     </Image>
@@ -31,8 +32,9 @@ export default function about() {
                 <div className={styles.centerCircle} style={{overflow: 'hidden', }}>
 
                 <Image
-                    src="/Graph Website.png"
+                    src="/Sam_Profile_Pic.png"
                     alt="14"
+                    objectFit= "cover"
                     fill
                     priority
                 >
@@ -64,6 +66,15 @@ export default function about() {
               target="_blank"
               rel="noopener noreferrer"
             >
+              <div style={{padding: '0.5em' }}>
+                <Image
+                src="/3d-Pie-Chart1.webp"
+                alt="13"
+                width={200}
+                height={140}
+                priority>
+                </Image>
+              </div>
               <h2 className={inter.className}>
                 8 Metrics <span>-&gt;</span>
               </h2>
@@ -79,14 +90,14 @@ export default function about() {
               rel="noopener noreferrer"
             >
               <div style={{padding: '0.5em' }}>
-              <Image
-              src="/3d-Pie-Chart1.webp"
-              alt="13"
-              width={200}
-              height={140}
-              priority>
-            </Image>
-          </div>
+                <Image
+                src="/3d-Pie-Chart1.webp"
+                alt="13"
+                width={200}
+                height={140}
+                priority>
+                </Image>
+              </div>
               <h2 className={inter.className}>
                 Personalised Feedback <span>-&gt;</span>
               </h2>
