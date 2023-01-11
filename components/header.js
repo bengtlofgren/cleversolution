@@ -12,7 +12,7 @@ const Header = () => (
         <h1 style={{textAlign:"center"}}> Home</h1>
     </a>
     <a
-        href="./about.js"
+        href="/about"
         className={styles.card}
         target="_blank"
         rel="noopener noreferrer"

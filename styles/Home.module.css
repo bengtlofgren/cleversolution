@@ -46,6 +46,13 @@
   max-width: 100%;
 }
 
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(50%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+}
+
 .card {
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
@@ -85,6 +92,13 @@
   align-items: center;
   position: relative;
   padding: 4rem 0;
+}
+
+.centerCircle {
+  position: relative;
+  border-radius: 50%;
+  height: 14em;
+  width: 14em;
 }
 
 .center::before {
