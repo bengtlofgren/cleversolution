@@ -128,22 +128,24 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div style={{padding: '9em', paddingTop: '4em'}}>
-          <p className={inter.className} style={{ marginBottom: '1em'}}>
-          Introducing Progress Track, the ultimate progress tracking website for students. This innovative platform allows students to stay on top of their studies by providing an easy way to track their progress and set goals.
-          </p>
-          <p className={inter.className} style={{ marginBottom: '1em'}}>
-          Our website offers a variety of features to help students stay organized and motivated. The calendar feature allows students to schedule assignments and exams, set reminders and deadlines and even track their progress by day. Additionally, our to-do list feature enables students to set daily, weekly and long-term goals and mark them off as they are achieved.
-          </p>
-          <p className={inter.className} style={{ marginBottom: '1em'}}>
-          We also provide a grade tracker feature that allows students to input their grades from all their classes in one convenient location. The grade tracker then calculates a student's overall GPA, so they can track their progress throughout the semester and school year.
-          </p>
-          <p className={inter.className} style={{ marginBottom: '1em'}}>
-          Our website also offers a feature for creating flashcards, this is especially helpful for students who are preparing for a test or exam, as it allows them to organize and study their notes more efficiently.
-          We understand that students may need help staying motivated throughout their studies, so we also provide a rewards system that students can earn points and badges as they complete tasks and achieve goals.
-          With Progress Track, students have access to all of the tools they need to stay organized, set goals, and track their progress. Our website is designed to help students achieve their full potential by providing them with the tools they need to succeed.
-          In conclusion, Progress Track is the ultimate progress tracking website for students. With its easy to use interface, students can easily stay on top of their studies and feel more organized and motivated. The platform offers a variety of features such as calendar, grade tracker, flashcards, goal setting, rewards and more to help students succeed and reach their full potential. Sign up now and take control of your studies.
-         </p>
+        <div style={{width: 'var(--max-width)', maxWidth: '100%', marginTop:'3em'}}>
+          <div style={{borderStyle: 'solid', borderWidth: 'thin', padding : '1em'}} >
+              <p className={inter.className} style={{ marginBottom: '1em', color: 'rgba(255,255,255,0.8)'}}>
+              Introducing Progress Track, the ultimate progress tracking website for students. This innovative platform allows students to stay on top of their studies by providing an easy way to track their progress and set goals.
+              </p>
+              <p className={inter.className} style={{ marginBottom: '1em', color: 'rgba(255,255,255,0.8)'}}>
+              Our website offers a variety of features to help students stay organized and motivated. The calendar feature allows students to schedule assignments and exams, set reminders and deadlines and even track their progress by day. Additionally, our to-do list feature enables students to set daily, weekly and long-term goals and mark them off as they are achieved.
+              </p>
+              <p className={inter.className} style={{ marginBottom: '1em', color: 'rgba(255,255,255,0.8)'}}>
+              We also provide a grade tracker feature that allows students to input their grades from all their classes in one convenient location. The grade tracker then calculates a student's overall GPA, so they can track their progress throughout the semester and school year.
+              </p>
+              <p className={inter.className} style={{ marginBottom: '1em', color: 'rgba(255,255,255,0.8)'}}>
+              Our website also offers a feature for creating flashcards, this is especially helpful for students who are preparing for a test or exam, as it allows them to organize and study their notes more efficiently.
+              We understand that students may need help staying motivated throughout their studies, so we also provide a rewards system that students can earn points and badges as they complete tasks and achieve goals.
+              With Progress Track, students have access to all of the tools they need to stay organized, set goals, and track their progress. Our website is designed to help students achieve their full potential by providing them with the tools they need to succeed.
+              In conclusion, Progress Track is the ultimate progress tracking website for students. With its easy to use interface, students can easily stay on top of their studies and feel more organized and motivated. The platform offers a variety of features such as calendar, grade tracker, flashcards, goal setting, rewards and more to help students succeed and reach their full potential. Sign up now and take control of your studies.
+              </p>
+          </div>
         </div>
       </main>
     </>
