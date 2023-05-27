@@ -22,7 +22,7 @@ export default function Home() {
         </div>
         
         <div style={{padding: '2em', paddingBottom: '4em' }}>
-          <div classname={styles.img} style={{ marginLeft: '-5em', marginTop: '-.5em' }}>
+          <div style={{ marginLeft: '-5em', marginTop: '-.5em' }}>
           <Image
           src="/Graph Website no background copy.png"
           alt="13"
